@@ -1,0 +1,23 @@
+## intent:confirm.deny
+- don't
+- don't want
+- need not
+- don't come
+- not needed
+- of course not
+- not at this time
+- not exactly
+- absolutely no
+- no forget
+- do not
+- no thanks
+- no don't want
+- sorry no
+- don't want that
+- do not
+- nope
+- nope not that
+- nah
+- no
+- dont need that
+- nah nope

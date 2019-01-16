@@ -1,0 +1,15 @@
+## intent:cuisine.type
+- i would like something in [Mexican](cuisine)
+- let's try [south Indian](cuisine)
+- would like to have something in [Italian](cuisine)
+- I am looking for something [north indian](cuisine)
+- show me something in [chinese](cuisine)
+- any [south indian](cuisine) cuisine
+- looking something [American](cuisine)
+- [Italian](cuisine)
+- [North Indian](cuisine)
+- I want some good [chinese](cuisine) food.
+- let's try something in [American](cuisine) cuisine
+- let's try [mexican](cuisine)
+- I am in mood to have some [chinese](cuisine) food.
+- would like to have some [south indian](cuisine)

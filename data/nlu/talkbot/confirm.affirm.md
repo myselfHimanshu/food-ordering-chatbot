@@ -1,0 +1,23 @@
+## intent:confirm.affirm
+- yeah exactly
+- okay that's fine
+- alright
+- that is ok
+- okey
+- ya
+- ok yes
+- yes it is
+- yep
+- yew
+- yeah
+- yeah fine
+- yea fine
+- yep okay
+- fine okay
+- yup
+- YEAH
+- okay buddy
+- hmm okay
+- yeah sure
+- okay cool
+- coool

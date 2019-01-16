@@ -1,0 +1,38 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "cuisine"
+      ]
+    },
+    "utter_greetings.bye": {
+      "slots": []
+    },
+    "utter_order.confirm": {
+      "slots": []
+    },
+    "utter_ask.cuisine": {
+      "slots": []
+    },
+    "utter_item.not_available": {
+      "slots": []
+    },
+    "utter_order.placed": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.12.2",
+  "python": "3.6.4",
+  "max_histories": [
+    5,
+    null,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20190116-194526"
+}

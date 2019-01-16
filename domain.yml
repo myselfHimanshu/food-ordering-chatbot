@@ -1,0 +1,101 @@
+%YAML 1.1
+---
+actions:
+- utter_item.not_available
+- utter_default
+- utter_order.confirm
+- utter_agent.welcome
+- utter_greetings.hello
+- order.summary
+- utter_select.item
+- order.add_item
+- utter_order.placed
+- order.process
+- utter_ask.cuisine
+- utter_display.menu
+- utter_order.cancel
+- action_default_fallback
+- order.remove_item
+- utter_greetings.bye
+- utter_order.anything_else
+- utter_item.quantity.how_many
+config:
+  store_entities_as_slots: true
+entities:
+- item
+- order-number
+- number
+- food
+- cuisine
+- quant
+forms: []
+intents:
+- cuisine.type
+- confirm.deny
+- greetings.hello
+- greetings.bye
+- confirm.affirm
+- selected.item
+- item.quantity
+- item.order
+slots:
+  available:
+    auto_fill: true
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - available
+    - not_available
+  cuisine:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
+  item:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
+  number:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
+  order_number:
+    auto_fill: true
+    type: rasa_core.slots.UnfeaturizedSlot
+templates:
+  utter_agent.welcome:
+  - text: Hi!!! I am Bru, your food ordering assistant.
+  utter_ask.cuisine:
+  - text: What cuisine would you like to try out today?
+  utter_default:
+  - text: I am sorry, I didn't understand what you said. Can you try again?
+  utter_display.menu:
+  - text: "{cuisine}.. Great choice. Here's the menu for today..."
+  utter_greetings.bye:
+  - text: Goodbye!!!
+  - text: Adios Amigo!!!
+  utter_greetings.hello:
+  - text: hi
+  - text: hey
+  - text: hey there!!
+  utter_item.not_available:
+  - text: Sorry, we are out of {item}. Would you like to have something else?
+  utter_item.quantity.how_many:
+  - text: How many would you like to have?
+  utter_order.anything_else:
+  - buttons:
+    - payload: confirm.affirm
+      title: 'Yes'
+    - payload: confirm.deny
+      title: 'No'
+    text: Would you like to order anything else?
+  utter_order.cancel:
+  - text: Okay, the order has been cancelled.
+  utter_order.confirm:
+  - buttons:
+    - payload: confirm.affirm
+      title: 'Yes'
+    - payload: confirm.deny
+      title: 'No'
+    text: Would you like to confirm the order?
+  utter_order.placed:
+  - text: Cool, your order has been placed. You will receive full updates on this
+      chat.
+  utter_select.item:
+  - text: "Please select from the menu. \n 1. Burger \n 2. Paratha \n 3. Chole Chawal\
+      \ \n 4. Idli sambar"

@@ -1,0 +1,905 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "confirm.affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "no thank you"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "north indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "let's try some north indian"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "idli sambar",
+            "entity": "food"
+          }
+        ],
+        "text": "idli sambar"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "item.quantity",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "1",
+            "entity": "quant"
+          }
+        ],
+        "text": "1"
+      },
+      {
+        "intent": "selected.item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "chole",
+            "entity": "food"
+          },
+          {
+            "start": 7,
+            "end": 13,
+            "value": "chawal",
+            "entity": "food"
+          }
+        ],
+        "text": "chole  chawal"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "don't"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "don't want"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "need not"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "don't come"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "not needed"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "of course not"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "not at this time"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "not exactly"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "absolutely no"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "no forget"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "do not"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "no don't want"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "sorry no"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "don't want that"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "do not"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "nope"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "nope not that"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "nah"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "no"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "dont need that"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "nah nope"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yeah exactly"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "okay that's fine"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "alright"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "that is ok"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "okey"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "ya"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "ok yes"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yes it is"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yew"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yeah fine"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yea fine"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yep okay"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "fine okay"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yup"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "YEAH"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "okay buddy"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "hmm okay"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yeah sure"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "okay cool"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "coool"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hello"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hey buddy"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi bru"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hello amigo"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hey hi"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hello there"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hello again"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi, nice to see you again"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "okay see you later"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "hope to see you later"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "till next time"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "I must go"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "see you"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "see you soon"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye-bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye bye good night"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye bye see you"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye bye see you soon"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye bye take care"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "I said bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "never mind bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "now bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "that's all goodbye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "that's it goodbye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "leave me alone"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "go to bed"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "goodbye for now"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "you can go now"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "get lost"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "goodbye see you later"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "alright bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "see ya"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "thanks bye bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "okay bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "okay thank you bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "see you tomorrow"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "ok bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "c u"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "Mexican",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "i would like something in Mexican"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "south Indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "let's try south Indian"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Italian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "would like to have something in Italian"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "north indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I am looking for something north indian"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "show me something in chinese"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "south indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "any south indian cuisine"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "American",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "looking something American"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Italian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "Italian"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "North Indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "North Indian"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I want some good chinese food."
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "American",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "let's try something in American cuisine"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "mexican",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "let's try mexican"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I am in mood to have some chinese food."
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "south indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "would like to have some south indian"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "confirm.affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "no"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "nope"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "no"
+      },
+      {
+        "intent": "confirm.deny",
+        "text": "i changed my mind maybe later"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "mexican",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "i would like to have mexicantoday"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "italian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "would like to have some italian"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "would love to have chinese"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "american",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "lets have some american dish"
+      },
+      {
+        "intent": "cuisine.type",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "american",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "let's try something american"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "ok bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "cool thanks"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "okay thank you very much"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "item.quantity",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "5",
+            "entity": "quant"
+          }
+        ],
+        "text": "5"
+      },
+      {
+        "intent": "item.quantity",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "2",
+            "entity": "quant"
+          }
+        ],
+        "text": "2"
+      },
+      {
+        "intent": "item.quantity",
+        "text": "1 and 3"
+      },
+      {
+        "intent": "item.quantity",
+        "text": "4[](quant:4)"
+      },
+      {
+        "intent": "selected.item",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "burger",
+            "entity": "food"
+          }
+        ],
+        "text": "let's have burgertoday"
+      },
+      {
+        "intent": "selected.item",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "biryani",
+            "entity": "food"
+          }
+        ],
+        "text": "would like to have some biryani"
+      },
+      {
+        "intent": "selected.item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "chole",
+            "entity": "food"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "chawal",
+            "entity": "food"
+          }
+        ],
+        "text": "chole chawal"
+      },
+      {
+        "intent": "selected.item",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "noodles",
+            "entity": "food"
+          }
+        ],
+        "text": "i want to have noodles"
+      },
+      {
+        "intent": "selected.item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "paratha",
+            "entity": "food"
+          }
+        ],
+        "text": "paratha"
+      },
+      {
+        "intent": "selected.item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "idli",
+            "entity": "food"
+          },
+          {
+            "start": 5,
+            "end": 11,
+            "value": "sambar",
+            "entity": "food"
+          }
+        ],
+        "text": "idli sambar"
+      },
+      {
+        "intent": "selected.item",
+        "entities": [
+          {
+            "start": 1,
+            "end": 7,
+            "value": "paratha",
+            "entity": "food"
+          }
+        ],
+        "text": "paratha"
+      },
+      {
+        "intent": "selected.item",
+        "entities": [
+          {
+            "start": 1,
+            "end": 6,
+            "value": "burger",
+            "entity": "food"
+          }
+        ],
+        "text": "burger"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "chole",
+        "synonyms": [
+          "chole "
+        ]
+      },
+      {
+        "value": "paratha",
+        "synonyms": [
+          "aratha"
+        ]
+      },
+      {
+        "value": "burger",
+        "synonyms": [
+          "urger",
+          "Burger"
+        ]
+      },
+      {
+        "value": "mexican",
+        "synonyms": [
+          "Mexican"
+        ]
+      }
+    ]
+  }
+}

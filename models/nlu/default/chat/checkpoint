@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/agent004/BitBucket/food-ordering-chatbot/./models/nlu/default/chat/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/Users/agent004/BitBucket/food-ordering-chatbot/./models/nlu/default/chat/intent_classifier_tensorflow_embedding.ckpt"
