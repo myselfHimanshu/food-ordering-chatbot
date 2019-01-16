@@ -16,3 +16,5 @@ Main Bot file to run:
 ```
 $python bot.py
 ```
+
+**In Progress**
