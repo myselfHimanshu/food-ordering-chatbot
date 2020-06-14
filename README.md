@@ -29,40 +29,14 @@ $python bot.py
 
 First let's define how our chatbot should converse like. Just a flow diagram.
 
-```mermaid
-graph TD
-A[greetings.hello]-->B[welcome.user]
-B-->C[ask.cuisine]
-C-->D[display.menu]
-D-->E[add.item]
-E-->F{item.available?}
-F-->|Yes|G[accept.order]
-F-->|No|H[suggest.alternative]
-H-->D
-G-->I{order.anything_else?}
-I-->|Yes|D
-I-->|No|J[verfiy.order_summary]
-J-->K[order.confirm]
-
-```
+![](https://github.com/myselfHimanshu/food-ordering-chatbot/raw/master/readme/1.png)
 
 ### 
 
 ## RASA core training
 
 
-
-```mermaid
-graph TD;
-A[training_data]-->B[load_data]
-C[domains]-->B
-B-->D[generate_stories]
-B-->E[load_agent]
-D-->F[training]
-E-->F
-F-->G[persist]
-E-->H[policies]
-```
+![](https://github.com/myselfHimanshu/food-ordering-chatbot/raw/master/readme/2.png)
 
 1. **training_data**: these are the stories that define the normal converation.
 
@@ -95,23 +69,7 @@ E-->H[policies]
 
 ## Predictions
 
-```mermaid
-graph TD
-A[model]-->B[load_model]
-B-->C[start_server]
-C-->D[api_endpoint]
-user_text-->D
-D-->E[interpreter]
-E-->F[create_tracker]
-F-->G[create_features]
-G-->H[policy_ensemble]
-H-->I[prediction]
-I-->J[return_action]
-J-->K[update_tracker]
-K-->bot_text
-
-
-```
+![](https://github.com/myselfHimanshu/food-ordering-chatbot/raw/master/readme/3.png)
 
 1. **load model**: first task is to load the trained model.
 2. **start_server**: we can user Flask.
@@ -134,5 +92,9 @@ The code is provide here : [github/food-ordering-chatbot](https://github.com/mys
 - payment gateway/wallet
 - notifications : can be a genral notification or for some coupons/codes
 - assigned person for delivery ( to update on chatbot) ( person_name, phone-number)
+
+## TODO
+
+- [ ] Flask web app
 
 
