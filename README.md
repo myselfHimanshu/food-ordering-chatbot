@@ -36,7 +36,9 @@ First let's define how our chatbot should converse like. Just a flow diagram.
 ## RASA core training
 
 
-![](https://github.com/myselfHimanshu/food-ordering-chatbot/raw/master/readme/2.png)
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/myselfHimanshu/food-ordering-chatbot/raw/master/readme/2.png"/>
+</p>
 
 1. **training_data**: these are the stories that define the normal converation.
 
