@@ -1,4 +1,4 @@
-# food-ordering-chatbot
+# Food Ordering and Help & Support Chatbot
 
 Food Ordering Chatbot using RASA.
 
@@ -99,4 +99,4 @@ The code is provide here : [github/food-ordering-chatbot](https://github.com/mys
 
 - [ ] Flask web app
 
-
+I will include basic flask application for chatting with the bot.
