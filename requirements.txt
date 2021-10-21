@@ -11,7 +11,7 @@ astroid==1.6.1
 astropy==2.0.3
 attrs==18.2.0
 Automat==0.7.0
-Babel==2.5.3
+Babel==2.9.1
 backports.shutil-get-terminal-size==1.0.0
 beautifulsoup4==4.6.0
 bitarray==0.8.1
